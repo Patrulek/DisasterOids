@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Asteroids" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Asteroids" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Asteroids" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/Patryk/INFA/Biblioteki/Allegro 5/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libgcc" />
+			<Add option="-static-libstdc++" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_acodec-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_audio-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_color-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_dialog-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_font-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_image-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_memfile-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_physfs-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_primitives-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro_ttf-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-monolith-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\liballegro-5.0.10-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libdumb-0.9.3-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libdumb-0.9.3-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libdumb-0.9.3-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libdumb-0.9.3-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libFLAC-1.2.1-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libFLAC-1.2.1-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libFLAC-1.2.1-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libFLAC-1.2.1-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libfreetype-2.4.8-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libfreetype-2.4.8-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libfreetype-2.4.8-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libfreetype-2.4.8-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libogg-1.2.1-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libogg-1.2.1-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libogg-1.2.1-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libogg-1.2.1-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libopenal-1.14-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libopenal-1.14-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libopenal-1.14-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libopenal-1.14-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbis-1.3.2-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbis-1.3.2-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbis-1.3.2-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbis-1.3.2-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbisfile-1.3.2-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbisfile-1.3.2-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbisfile-1.3.2-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libvorbisfile-1.3.2-static-mt-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libzlib-1.2.5-static-md.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libzlib-1.2.5-static-md-debug.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libzlib-1.2.5-static-mt.a" />
+			<Add library="..\..\..\Biblioteki\Allegro 5\lib\libzlib-1.2.5-static-mt-debug.a" />
+			<Add directory="D:/Patryk/INFA/Biblioteki/Allegro 5/lib" />
+		</Linker>
+		<Unit filename="Main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asteroid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asteroid.h" />
+		<Unit filename="beam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="beam.h" />
+		<Unit filename="bullet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bullet.h" />
+		<Unit filename="button.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="button.h" />
+		<Unit filename="collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collision.h" />
+		<Unit filename="displaytext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="displaytext.h" />
+		<Unit filename="dynamicarray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dynamicarray.h" />
+		<Unit filename="fontmanager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fontmanager.h" />
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="gamestate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gamestate.h" />
+		<Unit filename="gamevariables.h" />
+		<Unit filename="geometry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="geometry.h" />
+		<Unit filename="graphicmanager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graphicmanager.h" />
+		<Unit filename="image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="image.h" />
+		<Unit filename="inputhandler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="inputhandler.h" />
+		<Unit filename="io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="io.h" />
+		<Unit filename="memdebug.h" />
+		<Unit filename="player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="player.h" />
+		<Unit filename="powerups.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="powerups.h" />
+		<Unit filename="scene.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scene.h" />
+		<Unit filename="soundmanager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="soundmanager.h" />
+		<Unit filename="texturemanager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="texturemanager.h" />
+		<Unit filename="timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timer.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project project_number="0.00" />
+				<doxyfile_build extract_all="1" />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="0" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

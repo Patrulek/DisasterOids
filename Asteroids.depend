@@ -1,0 +1,741 @@
+# depslib dependency file v1.0
+1401776056 source:d:\patryk\infa\projekty\c\asteroids\main.c
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"gamevariables.h"
+	"game.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1372625928 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\alplatf.h
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\alunix.h
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\color.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\path.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1372624684 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\blender.h
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\config.h
+	"allegro5/file.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\error.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1368966308 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\fullscreen_mode.h
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\keycodes.h
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\memory.h
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\monitor.h
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\alcompat.h
+
+1402326743 source:d:\patryk\infa\projekty\c\asteroids\game.c
+	"game.h"
+
+1402328172 d:\patryk\infa\projekty\c\asteroids\game.h
+	<math.h>
+	<allegro5/allegro5.h>
+	<stdio.h>
+	"graphicmanager.h"
+	"inputhandler.h"
+	"gamestate.h"
+	"dynamicarray.h"
+	"texturemanager.h"
+	"soundmanager.h"
+	"collision.h"
+	"powerups.h"
+	"io.h"
+	"fontmanager.h"
+	"timer.h"
+	"memdebug.h"
+
+1402325003 d:\patryk\infa\projekty\c\asteroids\graphicmanager.h
+	<allegro5/allegro5.h>
+	<allegro5/allegro_image.h>
+	"memdebug.h"
+	"scene.h"
+	"dynamicarray.h"
+	"texturemanager.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro5.h
+	"allegro.h"
+
+1401897118 source:d:\patryk\infa\projekty\c\asteroids\graphicmanager.c
+	"graphicmanager.h"
+
+1396948809 d:\patryk\infa\projekty\c\asteroids\globalerrors.h
+
+1396947819 source:d:\patryk\infa\projekty\c\asteroids\globalerrors.c
+	"globalerrors.h"
+
+1401899797 d:\patryk\infa\projekty\c\asteroids\inputhandler.h
+	<allegro5/allegro5.h>
+	"memdebug.h"
+
+1401899798 source:d:\patryk\infa\projekty\c\asteroids\inputhandler.c
+	"inputhandler.h"
+
+1397128316 source:d:\patryk\infa\projekty\c\asteroids\introstate.c
+	"introstate.h"
+	<string.h>
+
+1397127993 d:\patryk\infa\projekty\c\asteroids\introstate.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"scene.h"
+
+1402145531 source:d:\patryk\infa\projekty\c\asteroids\texturemanager.c
+	"texturemanager.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro_image.h
+
+1402145575 source:d:\patryk\infa\projekty\c\asteroids\dynamicarray.c
+	"dynamicarray.h"
+
+1402145967 d:\patryk\infa\projekty\c\asteroids\dynamicarray.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<stdbool.h>
+	"memdebug.h"
+
+1402378466 source:d:\patryk\infa\projekty\c\asteroids\scene.c
+	"scene.h"
+	"graphicmanager.h"
+
+1402325512 d:\patryk\infa\projekty\c\asteroids\scene.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"dynamicarray.h"
+	"asteroid.h"
+	"texturemanager.h"
+	"player.h"
+	"button.h"
+	"image.h"
+	"powerups.h"
+	"displaytext.h"
+	"fontmanager.h"
+	"collision.h"
+	"memdebug.h"
+
+1397126036 d:\patryk\infa\projekty\c\asteroids\gamestatemachine.h
+	"dynamicarray.h"
+
+1397126512 source:d:\patryk\infa\projekty\c\asteroids\gamestatemachine.c
+	"gamestatemachine.h"
+	"introstate.h"
+	"globalerrors.h"
+
+1402327157 d:\patryk\infa\projekty\c\asteroids\gamestate.h
+	"scene.h"
+	"soundmanager.h"
+	"memdebug.h"
+	"timer.h"
+
+1402400200 source:d:\patryk\infa\projekty\c\asteroids\gamestate.c
+	"gamestate.h"
+
+1402142756 d:\patryk\infa\projekty\c\asteroids\texturemanager.h
+	<allegro5/allegro.h>
+	"memdebug.h"
+	"dynamicarray.h"
+	"string.h"
+
+1402324991 d:\patryk\infa\projekty\c\asteroids\player.h
+	<stdbool.h>
+	"collision.h"
+	"inputhandler.h"
+	"image.h"
+	"bullet.h"
+	"beam.h"
+	"memdebug.h"
+	"timer.h"
+
+1402328371 source:d:\patryk\infa\projekty\c\asteroids\player.c
+	"player.h"
+	"graphicmanager.h"
+
+1401898068 d:\patryk\infa\projekty\c\asteroids\button.h
+	"geometry.h"
+	"texturemanager.h"
+	"memdebug.h"
+
+1400249341 d:\patryk\infa\projekty\c\asteroids\point.h
+	"memdebug.h"
+
+1401784354 source:d:\patryk\infa\projekty\c\asteroids\button.c
+	"button.h"
+
+1400252665 source:d:\patryk\infa\projekty\c\asteroids\point.c
+	"point.h"
+
+1401898653 d:\patryk\infa\projekty\c\asteroids\image.h
+	"geometry.h"
+	"texturemanager.h"
+	"memdebug.h"
+
+1401898654 source:d:\patryk\infa\projekty\c\asteroids\image.c
+	"image.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1402142449 d:\patryk\infa\projekty\c\asteroids\soundmanager.h
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	"dynamicarray.h"
+	"memdebug.h"
+
+1362327500 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1402145531 source:d:\patryk\infa\projekty\c\asteroids\soundmanager.c
+	"soundmanager.h"
+
+1402137651 d:\patryk\infa\projekty\c\asteroids\bullet.h
+	<stdbool.h>
+	"memdebug.h"
+	"geometry.h"
+	"texturemanager.h"
+
+1402325745 source:d:\patryk\infa\projekty\c\asteroids\bullet.c
+	"bullet.h"
+	"graphicmanager.h"
+
+1402137554 d:\patryk\infa\projekty\c\asteroids\asteroid.h
+	"texturemanager.h"
+	"geometry.h"
+	"memdebug.h"
+
+1402325745 source:d:\patryk\infa\projekty\c\asteroids\asteroid.c
+	"asteroid.h"
+	"graphicmanager.h"
+
+1400249029 d:\patryk\infa\projekty\c\asteroids\circle.h
+	"point.h"
+	<stdbool.h>
+	"memdebug.h"
+
+1400249561 source:d:\patryk\infa\projekty\c\asteroids\circle.c
+	"circle.h"
+
+1401898055 d:\patryk\infa\projekty\c\asteroids\beam.h
+	<stdbool.h>
+	"texturemanager.h"
+	"collision.h"
+	"geometry.h"
+	"memdebug.h"
+
+1401785756 source:d:\patryk\infa\projekty\c\asteroids\beam.c
+	"beam.h"
+
+1398154884 d:\patryk\infa\projekty\c\asteroids\shieldpowerup.h
+	"texturemanager.h"
+	"point.h"
+	"circle.h"
+
+1398157585 source:d:\patryk\infa\projekty\c\asteroids\shieldpowerup.c
+	"shieldpowerup.h"
+
+1402141557 d:\patryk\infa\projekty\c\asteroids\powerups.h
+	"texturemanager.h"
+	"geometry.h"
+	"memdebug.h"
+
+1402141986 source:d:\patryk\infa\projekty\c\asteroids\powerups.c
+	"powerups.h"
+
+1372624732 d:\patryk\infa\biblioteki\allegro 5\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1398689018 d:\patryk\infa\projekty\c\asteroids\boundingbox.h
+	"point.h"
+
+1398695751 source:d:\patryk\infa\projekty\c\asteroids\boundingbox.c
+	"boundingbox.h"
+
+1402322942 source:d:\patryk\infa\projekty\c\asteroids\io.c
+	"io.h"
+
+1402139027 d:\patryk\infa\projekty\c\asteroids\io.h
+	<stdio.h>
+	<stdbool.h>
+	"memdebug.h"
+
+1401787463 source:d:\patryk\infa\projekty\c\asteroids\displaytext.c
+	"displayText.h"
+
+1401787648 d:\patryk\infa\projekty\c\asteroids\displaytext.h
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"geometry.h"
+	"io.h"
+	"memdebug.h"
+
+1401775304 d:\patryk\infa\projekty\c\asteroids\memdebug.h
+
+1400253036 source:d:\patryk\infa\projekty\c\asteroids bakap\asteroid.c
+	"asteroid.h"
+
+1400251931 d:\patryk\infa\projekty\c\asteroids bakap\asteroid.h
+	<allegro5/allegro_primitives.h>
+	"texturemanager.h"
+	"point.h"
+	"circle.h"
+	"memdebug.h"
+
+1400244463 d:\patryk\infa\projekty\c\asteroids bakap\texturemanager.h
+	"dynamicarray.h"
+	"string.h"
+	<allegro5/allegro.h>
+	"memdebug.h"
+
+1400251875 d:\patryk\infa\projekty\c\asteroids bakap\dynamicarray.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<stdbool.h>
+	"memdebug.h"
+
+1400252676 d:\patryk\infa\projekty\c\asteroids bakap\memdebug.h
+
+1400249341 d:\patryk\infa\projekty\c\asteroids bakap\point.h
+	"memdebug.h"
+
+1400249029 d:\patryk\infa\projekty\c\asteroids bakap\circle.h
+	"point.h"
+	<stdbool.h>
+	"memdebug.h"
+
+1400253036 source:d:\patryk\infa\projekty\c\asteroids bakap\beam.c
+	"beam.h"
+
+1400248386 d:\patryk\infa\projekty\c\asteroids bakap\beam.h
+	<allegro5/allegro_primitives.h>
+	"point.h"
+	"texturemanager.h"
+	<stdbool.h>
+	"boundingbox.h"
+	"circle.h"
+	"point.h"
+	"memdebug.h"
+
+1398689018 d:\patryk\infa\projekty\c\asteroids bakap\boundingbox.h
+	"point.h"
+
+1398695751 source:d:\patryk\infa\projekty\c\asteroids bakap\boundingbox.c
+	"boundingbox.h"
+
+1400253325 source:d:\patryk\infa\projekty\c\asteroids bakap\bullet.c
+	"bullet.h"
+	<allegro5/allegro_primitives.h>
+
+1400248427 d:\patryk\infa\projekty\c\asteroids bakap\bullet.h
+	"point.h"
+	"texturemanager.h"
+	<stdbool.h>
+	"circle.h"
+	"memdebug.h"
+
+1400253036 source:d:\patryk\infa\projekty\c\asteroids bakap\button.c
+	"button.h"
+
+1400248965 d:\patryk\infa\projekty\c\asteroids bakap\button.h
+	"point.h"
+	"texturemanager.h"
+	"memdebug.h"
+
+1400249561 source:d:\patryk\infa\projekty\c\asteroids bakap\circle.c
+	"circle.h"
+
+1400255997 source:d:\patryk\infa\projekty\c\asteroids bakap\displaytext.c
+	"displayText.h"
+
+1400255997 d:\patryk\infa\projekty\c\asteroids bakap\displaytext.h
+	"point.h"
+	"io.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"memdebug.h"
+
+1400249882 d:\patryk\infa\projekty\c\asteroids bakap\io.h
+	<stdio.h>
+	<stdbool.h>
+	"memdebug.h"
+
+1400252685 source:d:\patryk\infa\projekty\c\asteroids bakap\dynamicarray.c
+	"dynamicarray.h"
+
+1400260264 source:d:\patryk\infa\projekty\c\asteroids bakap\game.c
+	"game.h"
+	<allegro5/allegro5.h>
+	<stdio.h>
+	<stdlib.h>
+
+1400246343 d:\patryk\infa\projekty\c\asteroids bakap\game.h
+	"graphicmanager.h"
+	"inputhandler.h"
+	"gamestate.h"
+	"dynamicarray.h"
+	"texturemanager.h"
+	"soundmanager.h"
+	"boundingbox.h"
+	"powerups.h"
+	"io.h"
+	"memdebug.h"
+	<allegro5/allegro_primitives.h>
+	<math.h>
+	<stdlib.h>
+
+1400244224 d:\patryk\infa\projekty\c\asteroids bakap\graphicmanager.h
+	<allegro5/allegro5.h>
+	<allegro5/allegro_image.h>
+	"memdebug.h"
+	"scene.h"
+	"dynamicarray.h"
+	"texturemanager.h"
+
+1400257635 d:\patryk\infa\projekty\c\asteroids bakap\scene.h
+	"dynamicarray.h"
+	"asteroid.h"
+	"texturemanager.h"
+	"player.h"
+	"button.h"
+	"image.h"
+	"powerups.h"
+	"displayText.h"
+	"boundingbox.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"memdebug.h"
+
+1400250154 d:\patryk\infa\projekty\c\asteroids bakap\player.h
+	<allegro5/allegro_primitives.h>
+	"point.h"
+	"boundingbox.h"
+	"inputhandler.h"
+	"texturemanager.h"
+	"bullet.h"
+	"beam.h"
+	<stdbool.h>
+	"memdebug.h"
+
+1400244248 d:\patryk\infa\projekty\c\asteroids bakap\inputhandler.h
+	<allegro5/allegro5.h>
+	"memdebug.h"
+
+1400250117 d:\patryk\infa\projekty\c\asteroids bakap\image.h
+	"point.h"
+	"texturemanager.h"
+	"memdebug.h"
+
+1400253955 d:\patryk\infa\projekty\c\asteroids bakap\powerups.h
+	"texturemanager.h"
+	"point.h"
+	"circle.h"
+	"memdebug.h"
+
+1400257635 d:\patryk\infa\projekty\c\asteroids bakap\gamestate.h
+	"scene.h"
+	"soundmanager.h"
+	"memdebug.h"
+
+1400244997 d:\patryk\infa\projekty\c\asteroids bakap\soundmanager.h
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	"dynamicarray.h"
+	"memdebug.h"
+
+1400257691 source:d:\patryk\infa\projekty\c\asteroids bakap\gamestate.c
+	"gamestate.h"
+
+1400251538 source:d:\patryk\infa\projekty\c\asteroids bakap\graphicmanager.c
+	"graphicmanager.h"
+	"stdio.h"
+	"stdlib.h"
+
+1400253036 source:d:\patryk\infa\projekty\c\asteroids bakap\image.c
+	"image.h"
+
+1400251538 source:d:\patryk\infa\projekty\c\asteroids bakap\inputhandler.c
+	"inputhandler.h"
+	<stdlib.h>
+
+1400260264 source:d:\patryk\infa\projekty\c\asteroids bakap\io.c
+	"io.h"
+
+1400258723 source:d:\patryk\infa\projekty\c\asteroids bakap\main.c
+	<stdio.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"game.h"
+
+1400253213 source:d:\patryk\infa\projekty\c\asteroids bakap\player.c
+	"player.h"
+
+1400252665 source:d:\patryk\infa\projekty\c\asteroids bakap\point.c
+	"point.h"
+
+1400258160 source:d:\patryk\infa\projekty\c\asteroids bakap\powerups.c
+	"powerups.h"
+
+1400258669 source:d:\patryk\infa\projekty\c\asteroids bakap\scene.c
+	"scene.h"
+
+1400251875 source:d:\patryk\infa\projekty\c\asteroids bakap\soundmanager.c
+	"soundmanager.h"
+
+1400251537 source:d:\patryk\infa\projekty\c\asteroids bakap\texturemanager.c
+	"texturemanager.h"
+
+1401788520 d:\patryk\infa\projekty\c\asteroids\fontmanager.h
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"dynamicarray.h"
+
+1401786906 d:\patryk\infa\projekty\c\asteroids\collision.h
+	"geometry.h"
+
+1401896447 d:\patryk\infa\projekty\c\asteroids\geometry.h
+	"memdebug.h"
+	<stdbool.h>
+
+1402145531 source:d:\patryk\infa\projekty\c\asteroids\fontmanager.c
+	"fontmanager.h"
+
+1402073122 source:d:\patryk\infa\projekty\c\asteroids\collision.c
+	"collision.h"
+
+1401896012 source:d:\patryk\infa\projekty\c\asteroids\geometry.c
+	"geometry.h"
+
+1401453097 d:\patryk\infa\projekty\c\asteroids\gameconstants.h
+
+1402146249 d:\patryk\infa\projekty\c\asteroids\gamevariables.h
+
+1402326138 d:\patryk\infa\projekty\c\asteroids\timer.h
+	<allegro5/allegro5.h>
+	"memdebug.h"
+
+1402313725 source:d:\patryk\infa\projekty\c\asteroids\timer.c
+	"timer.h"
+
